@@ -10,3 +10,4 @@ for i in range(len(mul)):
 
 for i in range(len(arr)):
     print(arr[i])
+
