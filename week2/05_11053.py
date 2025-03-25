@@ -8,8 +8,6 @@ def binarySearch(board, target):
             end = mid-1
     return start
 
-
-
 n = int(input())
 a = list(map(int, input().split()))
 board = []
@@ -21,3 +19,4 @@ for num in a:
         SearchNumber = binarySearch(board,num)
         board[SearchNumber] = num
 print(len(board))
+print (board)
